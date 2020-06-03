@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="Android"/>
+	</ActiveMobileDevice>
+	<Transactions>
+    <Transaction>2018/05/28 22:02:33.000.657,C:\Users\suporte\Documents\Embarcadero\Studio\Projects\EncontroDasAguas\HeaderFooterNavigation.dproj=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\EncontroDasAguas\EncontroDasAguas.dproj</Transaction>
+    <Transaction>2018/05/28 22:03:12.000.687,C:\Users\suporte\Documents\Embarcadero\Studio\Projects\EncontroDasAguas\HeaderFooterFormwithNavigation.pas=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\EncontroDasAguas\uPrincipal.pas</Transaction>
+    <Transaction>2018/05/28 22:03:12.000.687,C:\Users\suporte\Documents\Embarcadero\Studio\Projects\EncontroDasAguas\HeaderFooterFormwithNavigation.fmx=C:\Users\suporte\Documents\Embarcadero\Studio\Projects\EncontroDasAguas\uPrincipal.fmx</Transaction>
+    <Transaction>2019/04/16 20:51:29.000.657,D:\Documents\Embarcadero\Studio\Projects\GilBraz\GilBraz.dproj=D:\Documents\Embarcadero\Studio\Projects\GilBraz\EncontroDasAguas.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

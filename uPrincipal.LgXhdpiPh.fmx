@@ -1,0 +1,214 @@
+inherited frmPrincipal_LgXhdpiPh: TfrmPrincipal_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 0
+  inherited TopToolBar: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited ToolBarLabel: TLabel
+      Size.Width = 450.000000000000000000
+    end
+  end
+  inherited BottomToolBar: TToolBar
+    Position.Y = 647.000000000000000000
+    Size.Width = 450.000000000000000000
+    inherited Label9: TLabel
+      Size.Width = 450.000000000000000000
+    end
+  end
+  inherited TABCPrincipal: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 599.000000000000000000
+    Sizes = (
+      450s
+      599s
+      450s
+      599s
+      450s
+      599s)
+    inherited TABHome: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited BTNConsorcio: TButton
+        Size.Width = 450.000000000000000000
+      end
+      inherited BTNSimular: TButton
+        Size.Width = 450.000000000000000000
+      end
+      inherited ImageViewer1: TImageViewer
+        Size.Width = 450.000000000000000000
+        Viewport.Width = 450.000000000000000000
+        Viewport.Height = 169.000000000000000000
+      end
+    end
+    inherited TABConsorcio: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited VertScrollBox2: TVertScrollBox
+        Size.Width = 450.000000000000000000
+        Size.Height = 599.000000000000000000
+        Viewport.Width = 445.000000000000000000
+        Viewport.Height = 599.000000000000000000
+        inherited Panel10: TPanel
+          Size.Width = 445.000000000000000000
+          inherited LBEconomiaTotal: TLabel
+            Size.Width = 445.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited Panel9: TPanel
+          Size.Width = 445.000000000000000000
+          inherited LBEconomiaMes: TLabel
+            Size.Width = 445.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited Panel8: TPanel
+          Size.Width = 445.000000000000000000
+          inherited LBVlrFinalConsorcio: TLabel
+            Size.Width = 245.000000000000000000
+          end
+        end
+        inherited Panel7: TPanel
+          Size.Width = 445.000000000000000000
+          inherited LBVlrPrestConsorcio: TLabel
+            Size.Width = 245.000000000000000000
+          end
+        end
+        inherited Panel5: TPanel
+          Size.Width = 445.000000000000000000
+          inherited LBVlrFinalFinanc: TLabel
+            Size.Width = 245.000000000000000000
+          end
+        end
+        inherited Panel4: TPanel
+          Size.Width = 445.000000000000000000
+          inherited LBVlrPrestFinanc: TLabel
+            Size.Width = 245.000000000000000000
+          end
+        end
+        inherited BTNCalcular: TButton
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel2: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel1: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel3: TPanel
+          Size.Width = 445.000000000000000000
+          inherited ColorBox4: TColorBox
+            Size.Width = 445.000000000000000000
+          end
+          inherited Label4: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited Panel6: TPanel
+          Size.Width = 445.000000000000000000
+          inherited ColorBox3: TColorBox
+            Size.Width = 445.000000000000000000
+          end
+          inherited Label7: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+    inherited TABLances: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited VertScrollBox1: TVertScrollBox
+        Size.Width = 450.000000000000000000
+        Size.Height = 599.000000000000000000
+        Viewport.Width = 445.000000000000000000
+        Viewport.Height = 599.000000000000000000
+        inherited Panel11: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel12: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel13: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel14: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel15: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited BTNCalcularL: TButton
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel17: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel16: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel21: TPanel
+          Size.Width = 445.000000000000000000
+          inherited ColorBox1: TColorBox
+            Size.Width = 445.000000000000000000
+          end
+          inherited Label18: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited Panel18: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel19: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel20: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited BTNCalcularLance: TButton
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel22: TPanel
+          Size.Width = 445.000000000000000000
+          inherited LBVlrTotalLance: TLabel
+            Position.X = 339.000000000000000000
+          end
+        end
+        inherited Panel23: TPanel
+          Size.Width = 445.000000000000000000
+          inherited LBVlrCreditoLance: TLabel
+            Position.X = 339.000000000000000000
+          end
+        end
+        inherited Panel24: TPanel
+          Size.Width = 445.000000000000000000
+          inherited ColorBox2: TColorBox
+            Size.Width = 445.000000000000000000
+          end
+          inherited Label20: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+        inherited Panel26: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel28: TPanel
+          Size.Width = 445.000000000000000000
+        end
+        inherited Panel25: TPanel
+          Size.Width = 445.000000000000000000
+          inherited LBVlrParcelasDiluicao: TLabel
+            Size.Width = 445.000000000000000000
+          end
+        end
+        inherited Panel27: TPanel
+          Size.Width = 445.000000000000000000
+          inherited LBVlrParcelasReducao: TLabel
+            Size.Width = 445.000000000000000000
+          end
+        end
+      end
+    end
+  end
+end

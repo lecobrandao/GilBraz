@@ -1,0 +1,106 @@
+inherited frmPrincipal_LgXhdpiPh: TfrmPrincipal_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 0
+  inherited TopToolBar: TToolBar
+    Size.Width = 450.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited ToolBarLabel: TLabel
+      Size.Width = 450.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+    inherited btnBack: TSpeedButton
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+  end
+  inherited BottomToolBar: TToolBar
+    Position.Y = 647.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Label9: TLabel
+      Size.Width = 450.000000000000000000
+      Size.Height = 48.000000000000000000
+    end
+  end
+  inherited TABCPrincipal: TTabControl
+    Size.Width = 450.000000000000000000
+    Size.Height = 599.000000000000000000
+    Sizes = (
+      450s
+      599s
+      450s
+      599s)
+    inherited TABHome: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited BTNConsorcio: TButton
+        Size.Width = 450.000000000000000000
+      end
+      inherited BTNSimular: TButton
+        Size.Width = 450.000000000000000000
+      end
+      inherited ImageViewer1: TImageViewer
+        Size.Width = 450.000000000000000000
+        Viewport.Width = 450.000000000000000000
+        Viewport.Height = 281.000000000000000000
+      end
+    end
+    inherited TABDados: TTabItem
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Panel1: TPanel
+        Size.Width = 450.000000000000000000
+        inherited NBVlrCarta: TNumberBox
+          Size.Height = 32.000000000000000000
+        end
+      end
+      inherited Panel2: TPanel
+        Size.Width = 450.000000000000000000
+        inherited NBPrazo: TNumberBox
+          Size.Height = 32.000000000000000000
+        end
+      end
+      inherited Panel4: TPanel
+        Size.Width = 450.000000000000000000
+        inherited LBVlrPrestFinanc: TLabel
+          Size.Width = 250.000000000000000000
+        end
+      end
+      inherited Panel5: TPanel
+        Size.Width = 450.000000000000000000
+        inherited LBVlrFinalFinanc: TLabel
+          Size.Width = 250.000000000000000000
+        end
+      end
+      inherited Panel9: TPanel
+        Size.Width = 450.000000000000000000
+      end
+      inherited BTNCalcular: TButton
+        Size.Width = 450.000000000000000000
+      end
+      inherited Panel6: TPanel
+        Size.Width = 450.000000000000000000
+      end
+      inherited Panel3: TPanel
+        Size.Width = 450.000000000000000000
+      end
+      inherited Panel7: TPanel
+        Size.Width = 450.000000000000000000
+        inherited LBVlrPrestConsorcio: TLabel
+          Size.Width = 250.000000000000000000
+        end
+      end
+      inherited Panel8: TPanel
+        Size.Width = 450.000000000000000000
+        inherited LBVlrFinalConsorcio: TLabel
+          Size.Width = 250.000000000000000000
+        end
+      end
+      inherited Panel10: TPanel
+        Size.Width = 450.000000000000000000
+      end
+    end
+  end
+end
